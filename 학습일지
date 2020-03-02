@@ -1,0 +1,13 @@
+3/2 월요일 
+<태그이름 속성 = stlye, title, src, width, height, href(주소 링크)
+<a herf=" "></a> 링크하기! 링크는 a태그 필수!
+<img src=" " width="600px" height="400px">
+<img src=" " alt="이미지를 표시 할 수없는 경우 사용할 대체 텍스트 이미지를 음성으로 할 수있다
+<html lang="ko">문서의 언어는 lang속성으로 선언 할수있다.</html> "en-us" 미국
+title 단락
+
+width, height 요소의 폭과 높이를 지정 여러 속성에서 쓰인다.
+stlye을 자세하게 들어가면 CSS stlye의 속성 200개
+<tagname stlye="property:value"></tagname>
+
+stlye="font-family:applymyungjo;"
