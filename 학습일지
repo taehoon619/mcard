@@ -4,10 +4,29 @@
 <img src=" " width="600px" height="400px">
 <img src=" " alt="이미지를 표시 할 수없는 경우 사용할 대체 텍스트 이미지를 음성으로 할 수있다
 <html lang="ko">문서의 언어는 lang속성으로 선언 할수있다.</html> "en-us" 미국
-title 단락
+title 단락 커서를 대면 나옴
+
 
 width, height 요소의 폭과 높이를 지정 여러 속성에서 쓰인다.
 stlye을 자세하게 들어가면 CSS stlye의 속성 200개
 <tagname stlye="property:value"></tagname>
 
 stlye="font-family:applymyungjo;"
+<body style="margin: 0; padding: 0; border: 0;"> 여백을 없앰 
+
+3/3 화요일
+<!doctype html>
+<html>  
+    <head>
+        <body>
+
+        </body>
+    </head>
+</html>
+<meta name="viewport" content="width=device-width, user-scalable=no"> 모바일에 적용시키위해 필요한 태그
+<body style="margin: 0; padding: 0; border: 0;"> 브라우저에서 여백을 정리함
+font-family:applemyungjo; font-size: 14px; font-weight: 200; 폰트 
+블럭은 끝나서 줄바꿈(자동으로 줄바뀜), 인라인 블럭은 줄바꿈이 없음
+@!@!@! margin border padding의 구분이 필요하다!!! 
+<head> </head> 폰트 링크는 헤드부분 헤드부분은 작업의 준비를 하는 공간
+
