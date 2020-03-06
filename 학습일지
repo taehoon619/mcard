@@ -29,4 +29,71 @@ font-family:applemyungjo; font-size: 14px; font-weight: 200; 폰트
 블럭은 끝나서 줄바꿈(자동으로 줄바뀜), 인라인 블럭은 줄바꿈이 없음
 @!@!@! margin border padding의 구분이 필요하다!!! 
 <head> </head> 폰트 링크는 헤드부분 헤드부분은 작업의 준비를 하는 공간
+letter-spacing 지간 조절 
+
+3/4 수요일 
+head 부분에 stlye을 따로 정리할수있다.
+<stlye> - inline, internal, linking
+
+
+3/6 금요일
+#시멘틱 마크업 = 의미있게 마크업
+docu object modle = DOM
+xhtml 여러군데 확장해서 쓸수있다. 문법은 더 정확하게
+https://validator.w3.org/ =  문법 검사기
+
+<head> 
+<title>문서 제목, 즐겨찾기에 저장할때 이름, 위쪽 탭에 제목 </title>
+
+<meta>  1.문자 세트 <meta charset="utf-8">
+        2.웹페이지에 대한 설명 <meta name+"description" comtent="free web tutorials">
+        3.검색엔진에 대한 키워드 정보 <meta name="keywords" content="html,CSS,xml,javascript">
+        4.페이지 작성자 정보 <meta name
+        5.뷰포트 설정
+
+<link>  1.외부 스타일 시트에 연결하는데 사용됩니다
+        2.link 요소로 미리 화일을 로드하는 경우 
+        
+internal stlye은 단일 html페이지에 대한 모든 요소에 영향을 미친다. ?? 
+
+<script> 자바스크립트를 정의하는데 사용한다. 
+<base> 페이지의 모든 상대 url애 대한 기본 url 및 기본 대상을 지정함
+파비콘(favicon) = 크롬 탭 이름 앞에 아이콘 = 파비콘
+</head>
+
+<body> 
+<hr> 수평 규칙 = 수평선 넣기 
+<p>  단락
+<br> 줄 바꿈
+<pre> 사전 형식화 된 텍스트를 정의 --> 내부 텍스트의 공백을 모두 유지 
+  데이터를 줄이기 위한 것과는 취지가 맞지 않음 (공백을 유지해 데이터가 많다.)  
+
+html 텍스트 형식
+<b> 굵은 텍스트
+<strong>
+<i>
+<em></em>
+<mark>
+<small>
+<del>
+<ins>
+<sub>
+<sup>
+
+html 목록  이것은 블럭 속성이다 !
+<ul> 순서가 없는 목록. <il>
+<dl>               <il>  
+<ol> 순서가 있는 목록. <il>
+
+style="display: inline-block; 블록 나누기
+
+<div> 블럭속성 
+<span> 인라인 속성
+
+</body>
+
+
+
+
+
 
