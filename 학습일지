@@ -42,17 +42,17 @@ docu object modle = DOM
 xhtml 여러군데 확장해서 쓸수있다. 문법은 더 정확하게
 https://validator.w3.org/ =  문법 검사기
 
-<head> 
+<head> stlye
 <title>문서 제목, 즐겨찾기에 저장할때 이름, 위쪽 탭에 제목 </title>
 
 <meta>  1.문자 세트 <meta charset="utf-8">
         2.웹페이지에 대한 설명 <meta name+"description" comtent="free web tutorials">
         3.검색엔진에 대한 키워드 정보 <meta name="keywords" content="html,CSS,xml,javascript">
-        4.페이지 작성자 정보 <meta name
+        4.페이지 작성자 정보 <meta name=" " content=" ">
         5.뷰포트 설정
 
 <link>  1.외부 스타일 시트에 연결하는데 사용됩니다
-        2.link 요소로 미리 화일을 로드하는 경우 
+        2.link 요소로 미리 파일을 로드하는 경우 
         
 internal stlye은 단일 html페이지에 대한 모든 요소에 영향을 미친다. ?? 
 
@@ -84,15 +84,49 @@ html 목록  이것은 블럭 속성이다 !
 <ul> 순서가 없는 목록. <il>
 <dl>               <il>  
 <ol> 순서가 있는 목록. <il>
+<dl> 정의 할때 <dt> <dd>
 
 style="display: inline-block; 블록 나누기
 
 <div> 블럭속성 
 <span> 인라인 속성
 
+<div> 의미없는 그룹핑
+<section> 의미를 기준으로 그룹핑
+
+<q> 짧은 인용을 정의
+
+
 </body>
 
+3/9 월요일
+*클래스 속성
+.error {color:red;}
+<p class="error">hi iam sam</p>
 
+*아이디 속성
+#p01 {color:blue;}
+<p id="p01">i am tae hoon</p>
+
+CSS
+인라인 <p stlye="color:white;">  </p>
+인터널 body {color:white;}
+클래스 아이디 .white #fo1
+링킹
+
+css 네이밍 규칙
+1. 숫자로 시작 ㄴ
+2. 숫자가 중간이나 마지막 가능 0
+3. xhtml은 대소문자 구분함 소문자로 사용하는게 좋다
+4. '_',"-"를 사용해 의미를 구분지어라 공백이 있을때 
+5. 여러요소를 한 번에 선언할 수 있다!
+
+ 의미있는 이름으로 구조화해라!
+
+.huge_img_04 --> home_section
+.home_section_background
+.top_text_04
+.main_text_04
 
 
 
